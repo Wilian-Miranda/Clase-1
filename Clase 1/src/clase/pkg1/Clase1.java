@@ -1,21 +1,34 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package clase.pkg1;
 
-/**
- *
- * @author Jose
- */
 public class Clase1 {
+    
+    
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        System.out.println("Hola GIT-HUB");
+        
+//        funcionesMatematicasSuma Funciones = new funcionesMatematicasSuma();
+//        System.out.println(Funciones.Division());
+
+        Coche miCarro = new Coche("TOYOTA", 2019, "ROJO");
+        Coche tuCarro = new Coche("Nissan", 2019, "Azul");
+        
+        Coche carroConMasParametros = new Coche("Nissan", 2019, "Azul", 4);
+        
+        System.out.println(tuCarro.toString());
+        System.out.println(miCarro.toString());
+        
+        System.out.println(carroConMasParametros.toString());
+        
+        
+        
+
+
+
+
+    
     }
+    
+    
     
 }
